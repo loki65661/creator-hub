@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Upgrade - CreatorHub</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #172033;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .top {
+      text-align: center;
+      margin: 20px 0 35px;
+    }
+
+    .top h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+
+    .top p {
+      color: #667085;
+      font-size: 16px;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 25px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      border: 2px solid #e5e7eb;
+    }
+
+    .pro {
+      border-color: #2563eb;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+
+    .card h2 {
+      font-size: 25px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 15px 0;
+    }
+
+    .price span {
+      font-size: 14px;
+      color: #667085;
+      font-weight: normal;
+    }
+
+    .features {
+      list-style: none;
+      margin: 20px 0;
+    }
+
+    .features li {
+      margin: 12px 0;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 13px;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #172033;
+      color: white;
+    }
+
+    .pro .button {
+      background: #2563eb;
+    }
+
+    .note {
+      text-align: center;
+      margin-top: 30px;
+      color: #667085;
+      font-size: 13px;
+    }
+
+    @media (max-width: 650px) {
+      .plans {
+        grid-template-columns: 1fr;
+      }
+
+      .top h1 {
+        font-size: 28px;
+      }
+
+      body {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <a class="back" href="index.html">← Back to CreatorHub</a>
+
+    <div class="top">
+      <h1>Upgrade CreatorHub 🚀</h1>
+      <p>Unlock more tools, learning resources and creator features.</p>
+    </div>
+
+    <div class="plans">
+
+      <div class="card">
+        <h2>Free</h2>
+        <p>Start learning and creating.</p>
+
+        <div class="price">₹0 <span>/ forever</span></div>
+
+        <ul class="features">
+          <li>✅ Basic courses</li>
+          <li>✅ Beginner AI tools</li>
+          <li>✅ Content ideas</li>
+          <li>✅ Basic projects</li>
+        </ul>
+
+        <a class="button" href="index.html">Current Plan</a>
+      </div>
+
+
+      <div class="card pro">
+        <span class="badge">POPULAR</span>
+
+        <h2>Creator Pro</h2>
+        <p>For creators who want more.</p>
+
+        <div class="price">Pro</div>
+
+        <ul class="features">
+          <li>✅ Advanced courses</li>
+          <li>✅ Premium AI prompts</li>
+          <li>✅ Advanced editing lessons</li>
+          <li>✅ Creator projects</li>
+          <li>✅ More resources</li>
+        </ul>
+
+        <a class="button" href="index.html">Coming Soon</a>
+      </div>
+
+    </div>
+
+    <p class="note">
+      CreatorHub Pro features are currently being developed.
+    </p>
+
+  </div>
+
+</body>
+  </html>
